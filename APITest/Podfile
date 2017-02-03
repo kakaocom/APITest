@@ -1,0 +1,8 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'APITest' do
+    pod 'SwiftyJSON', git: 'https://github.com/SwiftyJSON/SwiftyJSON', branch: 'master', submodules: true
+    pod 'Alamofire', git: 'https://github.com/Alamofire/Alamofire', branch: 'master', submodules: true
+end
+
